@@ -14,16 +14,16 @@
 #pragma warning disable 1591
 
 namespace SSRSExtractor.RSWebReference_SSRS {
-    using System;
-    using System.Web.Services;
     using System.Diagnostics;
-    using System.Web.Services.Protocols;
+    using System;
     using System.Xml.Serialization;
     using System.ComponentModel;
+    using System.Web.Services.Protocols;
+    using System.Web.Services;
     
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Web.Services.WebServiceBindingAttribute(Name="ReportingService2010Soap", Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
@@ -700,8 +700,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         public event ListSecurityScopesCompletedEventHandler ListSecurityScopesCompleted;
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateCa" +
             "talogItem", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("ItemInfo")]
@@ -744,8 +744,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemD" +
             "efinition", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Warnings")]
@@ -781,8 +781,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
             "efinition", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Definition", DataType="base64Binary")]
@@ -814,8 +814,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemT" +
             "ype", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Type")]
@@ -847,8 +847,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteIt" +
             "em", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void DeleteItem(string ItemPath) {
@@ -878,8 +878,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/MoveItem" +
             "", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void MoveItem(string ItemPath, string Target) {
@@ -911,8 +911,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/InheritP" +
             "arentSecurity", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void InheritParentSecurity(string ItemPath) {
@@ -942,8 +942,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListItem" +
             "History", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("ItemHistory")]
@@ -975,8 +975,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListChil" +
             "dren", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("CatalogItems")]
@@ -1010,8 +1010,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListDepe" +
             "ndentItems", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("CatalogItems")]
@@ -1043,8 +1043,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FindItem" +
             "s", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Items")]
@@ -1082,8 +1082,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPare" +
             "nts", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public CatalogItem[] ListParents(string ItemPath) {
@@ -1114,8 +1114,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateFo" +
             "lder", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("ItemInfo")]
@@ -1151,8 +1151,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetPrope" +
             "rties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetProperties(string ItemPath, Property[] Properties) {
@@ -1184,8 +1184,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("ItemNamespaceHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPrope" +
             "rties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
@@ -1220,8 +1220,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemR" +
             "eferences", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetItemReferences(string ItemPath, ItemReference[] ItemReferences) {
@@ -1253,8 +1253,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemR" +
             "eferences", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("ItemReferences")]
@@ -1288,8 +1288,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListItem" +
             "Types", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListItemTypes() {
@@ -1318,8 +1318,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSubsc" +
             "riptionProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetSubscriptionProperties(string SubscriptionID, ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, ParameterValue[] Parameters) {
@@ -1359,8 +1359,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSubsc" +
             "riptionProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Owner")]
@@ -1399,8 +1399,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetDataD" +
             "rivenSubscriptionProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetDataDrivenSubscriptionProperties(string DataDrivenSubscriptionID, ExtensionSettings ExtensionSettings, DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, ParameterValueOrFieldReference[] Parameters) {
@@ -1442,8 +1442,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetDataD" +
             "rivenSubscriptionProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Owner")]
@@ -1483,8 +1483,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteSu" +
             "bscription", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void DeleteSubscription(string SubscriptionID) {
@@ -1514,8 +1514,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateSu" +
             "bscription", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("SubscriptionID")]
@@ -1557,8 +1557,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateDa" +
             "taDrivenSubscription", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("SubscriptionID")]
@@ -1602,8 +1602,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetExten" +
             "sionSettings", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("ExtensionParameters")]
@@ -1635,8 +1635,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Validate" +
             "ExtensionSettings", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("ParameterErrors")]
@@ -1672,8 +1672,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSubs" +
             "criptions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("SubscriptionItems")]
@@ -1705,8 +1705,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMySu" +
             "bscriptions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("SubscriptionItems")]
@@ -1738,8 +1738,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSubs" +
             "criptionsUsingDataSource", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("SubscriptionItems")]
@@ -1771,8 +1771,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ChangeSu" +
             "bscriptionOwner", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void ChangeSubscriptionOwner(string SubscriptionID, string NewOwner) {
@@ -1804,8 +1804,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateDa" +
             "taSource", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("ItemInfo")]
@@ -1845,8 +1845,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/PrepareQ" +
             "uery", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("DataSettings")]
@@ -1882,8 +1882,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/EnableDa" +
             "taSource", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void EnableDataSource(string DataSource) {
@@ -1913,8 +1913,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DisableD" +
             "ataSource", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void DisableDataSource(string DataSource) {
@@ -1944,8 +1944,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetDataS" +
             "ourceContents", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetDataSourceContents(string DataSource, DataSourceDefinition Definition) {
@@ -1977,8 +1977,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetDataS" +
             "ourceContents", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Definition")]
@@ -2010,8 +2010,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListData" +
             "baseCredentialRetrievalOptions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListDatabaseCredentialRetrievalOptions() {
@@ -2040,8 +2040,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemD" +
             "ataSources", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetItemDataSources(string ItemPath, DataSource[] DataSources) {
@@ -2073,8 +2073,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
             "ataSources", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("DataSources")]
@@ -2106,8 +2106,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/TestConn" +
             "ectForDataSourceDefinition", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public bool TestConnectForDataSourceDefinition(DataSourceDefinition DataSourceDefinition, string UserName, string Password, out string ConnectError) {
@@ -2143,8 +2143,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/TestConn" +
             "ectForItemDataSource", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public bool TestConnectForItemDataSource(string ItemPath, string DataSourceName, string UserName, string Password, out string ConnectError) {
@@ -2182,8 +2182,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateRo" +
             "le", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void CreateRole(string Name, string Description, string[] TaskIDs) {
@@ -2217,8 +2217,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetRoleP" +
             "roperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetRoleProperties(string Name, string Description, string[] TaskIDs) {
@@ -2252,8 +2252,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetRoleP" +
             "roperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("TaskIDs")]
@@ -2288,8 +2288,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteRo" +
             "le", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void DeleteRole(string Name) {
@@ -2319,8 +2319,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListRole" +
             "s", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Roles")]
@@ -2354,8 +2354,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListTask" +
             "s", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Tasks")]
@@ -2387,8 +2387,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetPolic" +
             "ies", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetPolicies(string ItemPath, Policy[] Policies) {
@@ -2420,8 +2420,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPolic" +
             "ies", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Policies")]
@@ -2454,8 +2454,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
             "ataSourcePrompts", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("DataSourcePrompts")]
@@ -2487,8 +2487,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Generate" +
             "Model", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("ItemInfo")]
@@ -2527,8 +2527,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetModel" +
             "ItemPermissions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Permissions")]
@@ -2562,8 +2562,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetModel" +
             "ItemPolicies", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetModelItemPolicies(string Model, string ModelItemID, Policy[] Policies) {
@@ -2597,8 +2597,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetModel" +
             "ItemPolicies", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Policies")]
@@ -2633,8 +2633,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetUserM" +
             "odel", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Definition", DataType="base64Binary")]
@@ -2668,8 +2668,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/InheritM" +
             "odelItemParentSecurity", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void InheritModelItemParentSecurity(string Model, string ModelItemID) {
@@ -2701,8 +2701,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetModel" +
             "DrillthroughReports", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetModelDrillthroughReports(string Model, string ModelItemID, ModelDrillthroughReport[] Reports) {
@@ -2736,8 +2736,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
             "lDrillthroughReports", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Reports")]
@@ -2771,8 +2771,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
             "lItemChildren", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("ModelItems")]
@@ -2808,8 +2808,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
             "lItemTypes", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListModelItemTypes() {
@@ -2838,8 +2838,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
             "lPerspectives", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("ModelCatalogItems")]
@@ -2871,8 +2871,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Regenera" +
             "teModel", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Warnings")]
@@ -2904,8 +2904,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/RemoveAl" +
             "lModelItemPolicies", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void RemoveAllModelItemPolicies(string Model) {
@@ -2935,8 +2935,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateSc" +
             "hedule", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("ScheduleID")]
@@ -2972,8 +2972,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteSc" +
             "hedule", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void DeleteSchedule(string ScheduleID) {
@@ -3003,8 +3003,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
             "dules", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Schedules")]
@@ -3036,8 +3036,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSched" +
             "uleProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Schedule")]
@@ -3069,8 +3069,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
             "duleStates", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListScheduleStates() {
@@ -3099,8 +3099,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/PauseSch" +
             "edule", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void PauseSchedule(string ScheduleID) {
@@ -3130,8 +3130,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ResumeSc" +
             "hedule", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void ResumeSchedule(string ScheduleID) {
@@ -3161,8 +3161,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSched" +
             "uleProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetScheduleProperties(string Name, string ScheduleID, ScheduleDefinition ScheduleDefinition) {
@@ -3196,8 +3196,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
             "duledItems", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Items")]
@@ -3229,8 +3229,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemP" +
             "arameters", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetItemParameters(string ItemPath, ItemParameter[] Parameters) {
@@ -3262,8 +3262,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemP" +
             "arameters", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Parameters")]
@@ -3303,8 +3303,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPara" +
             "meterTypes", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListParameterTypes() {
@@ -3333,8 +3333,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPara" +
             "meterStates", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListParameterStates() {
@@ -3363,8 +3363,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateRe" +
             "portEditSession", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("EditSessionID")]
@@ -3401,8 +3401,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateLi" +
             "nkedItem", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void CreateLinkedItem(string ItemPath, string Parent, string Link, Property[] Properties) {
@@ -3438,8 +3438,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemL" +
             "ink", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetItemLink(string ItemPath, string Link) {
@@ -3471,8 +3471,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemL" +
             "ink", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Link")]
@@ -3504,8 +3504,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExec" +
             "utionSettings", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListExecutionSettings() {
@@ -3534,8 +3534,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetExecu" +
             "tionOptions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetExecutionOptions(string ItemPath, string ExecutionSetting, [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))] [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))] [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))] ScheduleDefinitionOrReference Item) {
@@ -3569,8 +3569,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetExecu" +
             "tionOptions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("ExecutionSetting")]
@@ -3603,8 +3603,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/UpdateIt" +
             "emExecutionSnapshot", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void UpdateItemExecutionSnapshot(string ItemPath) {
@@ -3634,8 +3634,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetCache" +
             "Options", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetCacheOptions(string ItemPath, bool CacheItem, [System.Xml.Serialization.XmlElementAttribute("ScheduleExpiration", typeof(ScheduleExpiration))] [System.Xml.Serialization.XmlElementAttribute("TimeExpiration", typeof(TimeExpiration))] ExpirationDefinition Item) {
@@ -3669,8 +3669,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetCache" +
             "Options", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("CacheItem")]
@@ -3703,8 +3703,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FlushCac" +
             "he", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void FlushCache(string ItemPath) {
@@ -3734,8 +3734,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateIt" +
             "emHistorySnapshot", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("HistoryID")]
@@ -3768,8 +3768,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteIt" +
             "emHistorySnapshot", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void DeleteItemHistorySnapshot(string ItemPath, string HistoryID) {
@@ -3801,8 +3801,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemH" +
             "istoryLimit", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetItemHistoryLimit(string ItemPath, bool UseSystem, int HistoryLimit) {
@@ -3836,8 +3836,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemH" +
             "istoryLimit", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("HistoryLimit")]
@@ -3871,8 +3871,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemH" +
             "istoryOptions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetItemHistoryOptions(string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))] [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))] [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))] ScheduleDefinitionOrReference Item) {
@@ -3908,8 +3908,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemH" +
             "istoryOptions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("EnableManualSnapshotCreation")]
@@ -3943,8 +3943,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetRepor" +
             "tServerConfigInfo", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("ServerConfigInfo")]
@@ -3976,8 +3976,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/IsSSLReq" +
             "uired", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public bool IsSSLRequired() {
@@ -4006,8 +4006,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSyste" +
             "mProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetSystemProperties(Property[] Properties) {
@@ -4037,8 +4037,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
             "mProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Values")]
@@ -4070,8 +4070,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSyste" +
             "mPolicies", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetSystemPolicies(Policy[] Policies) {
@@ -4101,8 +4101,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
             "mPolicies", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Policies")]
@@ -4132,8 +4132,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExte" +
             "nsions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Extensions")]
@@ -4165,8 +4165,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExte" +
             "nsionTypes", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListExtensionTypes() {
@@ -4195,8 +4195,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListEven" +
             "ts", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Events")]
@@ -4226,8 +4226,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FireEven" +
             "t", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void FireEvent(string EventType, string EventData, string SiteUrl) {
@@ -4261,8 +4261,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobs" +
             "", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Jobs")]
@@ -4292,8 +4292,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobT" +
             "ypes", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListJobTypes() {
@@ -4322,8 +4322,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobA" +
             "ctions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListJobActions() {
@@ -4352,8 +4352,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobS" +
             "tates", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListJobStates() {
@@ -4382,8 +4382,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CancelJo" +
             "b", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public bool CancelJob(string JobID) {
@@ -4414,8 +4414,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateCa" +
             "cheRefreshPlan", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("CacheRefreshPlanID")]
@@ -4455,8 +4455,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetCache" +
             "RefreshPlanProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void SetCacheRefreshPlanProperties(string CacheRefreshPlanID, string Description, string EventType, string MatchData, ParameterValue[] Parameters) {
@@ -4494,8 +4494,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetCache" +
             "RefreshPlanProperties", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("Description")]
@@ -4532,8 +4532,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteCa" +
             "cheRefreshPlan", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void DeleteCacheRefreshPlan(string CacheRefreshPlanID) {
@@ -4563,8 +4563,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListCach" +
             "eRefreshPlans", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("CacheRefreshPlans")]
@@ -4596,8 +4596,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/LogonUse" +
             "r", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void LogonUser(string userName, string password, string authority) {
@@ -4631,8 +4631,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Logoff", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public void Logoff() {
             this.Invoke("Logoff", new object[0]);
@@ -4659,8 +4659,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPermi" +
             "ssions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Permissions")]
@@ -4693,8 +4693,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
             "mPermissions", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlArrayAttribute("Permissions")]
@@ -4725,8 +4725,8 @@ namespace SSRSExtractor.RSWebReference_SSRS {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapHeaderAttribute("TrustedUserHeaderValue")]
+        [System.Web.Services.Protocols.SoapHeaderAttribute("ServerInfoHeaderValue", Direction=System.Web.Services.Protocols.SoapHeaderDirection.Out)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSecu" +
             "rityScopes", RequestNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", ResponseNamespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string[] ListSecurityScopes() {
@@ -4774,73 +4774,25 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", IsNullable=false)]
-    public partial class ServerInfoHeader : System.Web.Services.Protocols.SoapHeader {
+    public partial class ItemNamespaceHeader : System.Web.Services.Protocols.SoapHeader {
         
-        private string reportServerVersionNumberField;
-        
-        private string reportServerEditionField;
-        
-        private string reportServerVersionField;
-        
-        private string reportServerDateTimeField;
-        
-        private TimeZoneInformation reportServerTimeZoneInfoField;
+        private ItemNamespaceEnum itemNamespaceField;
         
         private System.Xml.XmlAttribute[] anyAttrField;
         
         /// <remarks/>
-        public string ReportServerVersionNumber {
+        public ItemNamespaceEnum ItemNamespace {
             get {
-                return this.reportServerVersionNumberField;
+                return this.itemNamespaceField;
             }
             set {
-                this.reportServerVersionNumberField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public string ReportServerEdition {
-            get {
-                return this.reportServerEditionField;
-            }
-            set {
-                this.reportServerEditionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public string ReportServerVersion {
-            get {
-                return this.reportServerVersionField;
-            }
-            set {
-                this.reportServerVersionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public string ReportServerDateTime {
-            get {
-                return this.reportServerDateTimeField;
-            }
-            set {
-                this.reportServerDateTimeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public TimeZoneInformation ReportServerTimeZoneInfo {
-            get {
-                return this.reportServerTimeZoneInfoField;
-            }
-            set {
-                this.reportServerTimeZoneInfoField = value;
+                this.itemNamespaceField = value;
             }
         }
         
@@ -4857,181 +4809,20 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-    public partial class TimeZoneInformation {
-        
-        private int biasField;
-        
-        private int standardBiasField;
-        
-        private SYSTEMTIME standardDateField;
-        
-        private int daylightBiasField;
-        
-        private SYSTEMTIME daylightDateField;
+    public enum ItemNamespaceEnum {
         
         /// <remarks/>
-        public int Bias {
-            get {
-                return this.biasField;
-            }
-            set {
-                this.biasField = value;
-            }
-        }
+        PathBased,
         
         /// <remarks/>
-        public int StandardBias {
-            get {
-                return this.standardBiasField;
-            }
-            set {
-                this.standardBiasField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public SYSTEMTIME StandardDate {
-            get {
-                return this.standardDateField;
-            }
-            set {
-                this.standardDateField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public int DaylightBias {
-            get {
-                return this.daylightBiasField;
-            }
-            set {
-                this.daylightBiasField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public SYSTEMTIME DaylightDate {
-            get {
-                return this.daylightDateField;
-            }
-            set {
-                this.daylightDateField = value;
-            }
-        }
+        GUIDBased,
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-    public partial class SYSTEMTIME {
-        
-        private short yearField;
-        
-        private short monthField;
-        
-        private short dayOfWeekField;
-        
-        private short dayField;
-        
-        private short hourField;
-        
-        private short minuteField;
-        
-        private short secondField;
-        
-        private short millisecondsField;
-        
-        /// <remarks/>
-        public short year {
-            get {
-                return this.yearField;
-            }
-            set {
-                this.yearField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public short month {
-            get {
-                return this.monthField;
-            }
-            set {
-                this.monthField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public short dayOfWeek {
-            get {
-                return this.dayOfWeekField;
-            }
-            set {
-                this.dayOfWeekField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public short day {
-            get {
-                return this.dayField;
-            }
-            set {
-                this.dayField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public short hour {
-            get {
-                return this.hourField;
-            }
-            set {
-                this.hourField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public short minute {
-            get {
-                return this.minuteField;
-            }
-            set {
-                this.minuteField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public short second {
-            get {
-                return this.secondField;
-            }
-            set {
-                this.secondField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public short milliseconds {
-            get {
-                return this.millisecondsField;
-            }
-            set {
-                this.millisecondsField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5136,7 +4927,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5193,7 +4984,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5322,7 +5113,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5343,7 +5134,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5414,7 +5205,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ScheduleExpiration))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(TimeExpiration))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5423,7 +5214,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5446,7 +5237,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5509,7 +5300,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5535,7 +5326,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(WeeklyRecurrence))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MonthlyRecurrence))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MonthlyDOWRecurrence))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5544,7 +5335,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5565,7 +5356,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5611,7 +5402,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5704,7 +5495,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5737,7 +5528,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5890,7 +5681,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5948,7 +5739,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
     public enum WeekNumberEnum {
@@ -5973,7 +5764,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ScheduleReference))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NoSchedule))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ScheduleDefinition))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5982,7 +5773,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6015,7 +5806,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6024,7 +5815,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6045,7 +5836,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6090,7 +5881,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6372,7 +6163,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6405,7 +6196,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6548,7 +6339,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6593,7 +6384,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6638,7 +6429,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6707,7 +6498,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6740,7 +6531,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
     public enum DrillthroughType {
@@ -6753,7 +6544,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6798,7 +6589,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6831,7 +6622,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6864,7 +6655,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6909,7 +6700,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6945,7 +6736,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7112,7 +6903,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
     public enum CredentialRetrievalEnum {
@@ -7134,7 +6925,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InvalidDataSourceReference))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DataSourceReference))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DataSourceDefinition))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7143,7 +6934,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7152,7 +6943,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7173,7 +6964,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7363,7 +7154,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7398,7 +7189,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7433,7 +7224,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ParameterFieldReference))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ParameterValue))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7442,7 +7233,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7487,7 +7278,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7621,7 +7412,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7752,7 +7543,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7810,7 +7601,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7843,7 +7634,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8000,7 +7791,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
     public enum SensitivityEnum {
@@ -8016,7 +7807,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8052,7 +7843,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8097,7 +7888,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8130,7 +7921,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8189,7 +7980,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
     public enum ConditionEnum {
@@ -8208,7 +7999,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8253,7 +8044,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8322,7 +8113,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8539,7 +8330,7 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8572,55 +8363,181 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", IsNullable=false)]
-    public partial class ItemNamespaceHeader : System.Web.Services.Protocols.SoapHeader {
+    public partial class SYSTEMTIME {
         
-        private ItemNamespaceEnum itemNamespaceField;
+        private short yearField;
         
-        private System.Xml.XmlAttribute[] anyAttrField;
+        private short monthField;
+        
+        private short dayOfWeekField;
+        
+        private short dayField;
+        
+        private short hourField;
+        
+        private short minuteField;
+        
+        private short secondField;
+        
+        private short millisecondsField;
         
         /// <remarks/>
-        public ItemNamespaceEnum ItemNamespace {
+        public short year {
             get {
-                return this.itemNamespaceField;
+                return this.yearField;
             }
             set {
-                this.itemNamespaceField = value;
+                this.yearField = value;
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlAnyAttributeAttribute()]
-        public System.Xml.XmlAttribute[] AnyAttr {
+        public short month {
             get {
-                return this.anyAttrField;
+                return this.monthField;
             }
             set {
-                this.anyAttrField = value;
+                this.monthField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public short dayOfWeek {
+            get {
+                return this.dayOfWeekField;
+            }
+            set {
+                this.dayOfWeekField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public short day {
+            get {
+                return this.dayField;
+            }
+            set {
+                this.dayField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public short hour {
+            get {
+                return this.hourField;
+            }
+            set {
+                this.hourField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public short minute {
+            get {
+                return this.minuteField;
+            }
+            set {
+                this.minuteField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public short second {
+            get {
+                return this.secondField;
+            }
+            set {
+                this.secondField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public short milliseconds {
+            get {
+                return this.millisecondsField;
+            }
+            set {
+                this.millisecondsField = value;
             }
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-    public enum ItemNamespaceEnum {
+    public partial class TimeZoneInformation {
+        
+        private int biasField;
+        
+        private int standardBiasField;
+        
+        private SYSTEMTIME standardDateField;
+        
+        private int daylightBiasField;
+        
+        private SYSTEMTIME daylightDateField;
         
         /// <remarks/>
-        PathBased,
+        public int Bias {
+            get {
+                return this.biasField;
+            }
+            set {
+                this.biasField = value;
+            }
+        }
         
         /// <remarks/>
-        GUIDBased,
+        public int StandardBias {
+            get {
+                return this.standardBiasField;
+            }
+            set {
+                this.standardBiasField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public SYSTEMTIME StandardDate {
+            get {
+                return this.standardDateField;
+            }
+            set {
+                this.standardDateField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public int DaylightBias {
+            get {
+                return this.daylightBiasField;
+            }
+            set {
+                this.daylightBiasField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public SYSTEMTIME DaylightDate {
+            get {
+                return this.daylightDateField;
+            }
+            set {
+                this.daylightDateField = value;
+            }
+        }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8668,7 +8585,90 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", IsNullable=false)]
+    public partial class ServerInfoHeader : System.Web.Services.Protocols.SoapHeader {
+        
+        private string reportServerVersionNumberField;
+        
+        private string reportServerEditionField;
+        
+        private string reportServerVersionField;
+        
+        private string reportServerDateTimeField;
+        
+        private TimeZoneInformation reportServerTimeZoneInfoField;
+        
+        private System.Xml.XmlAttribute[] anyAttrField;
+        
+        /// <remarks/>
+        public string ReportServerVersionNumber {
+            get {
+                return this.reportServerVersionNumberField;
+            }
+            set {
+                this.reportServerVersionNumberField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public string ReportServerEdition {
+            get {
+                return this.reportServerEditionField;
+            }
+            set {
+                this.reportServerEditionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public string ReportServerVersion {
+            get {
+                return this.reportServerVersionField;
+            }
+            set {
+                this.reportServerVersionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public string ReportServerDateTime {
+            get {
+                return this.reportServerDateTimeField;
+            }
+            set {
+                this.reportServerDateTimeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public TimeZoneInformation ReportServerTimeZoneInfo {
+            get {
+                return this.reportServerTimeZoneInfoField;
+            }
+            set {
+                this.reportServerTimeZoneInfoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAnyAttributeAttribute()]
+        public System.Xml.XmlAttribute[] AnyAttr {
+            get {
+                return this.anyAttrField;
+            }
+            set {
+                this.anyAttrField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
     public enum BooleanOperatorEnum {
@@ -8681,11 +8681,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateCatalogItemCompletedEventHandler(object sender, CreateCatalogItemCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateCatalogItemCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8715,11 +8715,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetItemDefinitionCompletedEventHandler(object sender, SetItemDefinitionCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class SetItemDefinitionCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8741,11 +8741,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemDefinitionCompletedEventHandler(object sender, GetItemDefinitionCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemDefinitionCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8767,11 +8767,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemTypeCompletedEventHandler(object sender, GetItemTypeCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemTypeCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8793,23 +8793,23 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void DeleteItemCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void MoveItemCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void InheritParentSecurityCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListItemHistoryCompletedEventHandler(object sender, ListItemHistoryCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListItemHistoryCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8831,11 +8831,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListChildrenCompletedEventHandler(object sender, ListChildrenCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListChildrenCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8857,11 +8857,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListDependentItemsCompletedEventHandler(object sender, ListDependentItemsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListDependentItemsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8883,11 +8883,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void FindItemsCompletedEventHandler(object sender, FindItemsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class FindItemsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8909,11 +8909,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListParentsCompletedEventHandler(object sender, ListParentsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListParentsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8935,11 +8935,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateFolderCompletedEventHandler(object sender, CreateFolderCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateFolderCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8961,15 +8961,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetPropertiesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetPropertiesCompletedEventHandler(object sender, GetPropertiesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetPropertiesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -8991,15 +8991,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetItemReferencesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemReferencesCompletedEventHandler(object sender, GetItemReferencesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemReferencesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9021,11 +9021,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListItemTypesCompletedEventHandler(object sender, ListItemTypesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListItemTypesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9047,15 +9047,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetSubscriptionPropertiesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetSubscriptionPropertiesCompletedEventHandler(object sender, GetSubscriptionPropertiesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetSubscriptionPropertiesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9133,15 +9133,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetDataDrivenSubscriptionPropertiesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetDataDrivenSubscriptionPropertiesCompletedEventHandler(object sender, GetDataDrivenSubscriptionPropertiesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetDataDrivenSubscriptionPropertiesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9227,15 +9227,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void DeleteSubscriptionCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateSubscriptionCompletedEventHandler(object sender, CreateSubscriptionCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateSubscriptionCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9257,11 +9257,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateDataDrivenSubscriptionCompletedEventHandler(object sender, CreateDataDrivenSubscriptionCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateDataDrivenSubscriptionCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9283,11 +9283,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetExtensionSettingsCompletedEventHandler(object sender, GetExtensionSettingsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetExtensionSettingsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9309,11 +9309,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ValidateExtensionSettingsCompletedEventHandler(object sender, ValidateExtensionSettingsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ValidateExtensionSettingsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9335,11 +9335,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListSubscriptionsCompletedEventHandler(object sender, ListSubscriptionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListSubscriptionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9361,11 +9361,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListMySubscriptionsCompletedEventHandler(object sender, ListMySubscriptionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListMySubscriptionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9387,11 +9387,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListSubscriptionsUsingDataSourceCompletedEventHandler(object sender, ListSubscriptionsUsingDataSourceCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListSubscriptionsUsingDataSourceCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9413,15 +9413,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ChangeSubscriptionOwnerCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateDataSourceCompletedEventHandler(object sender, CreateDataSourceCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateDataSourceCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9443,11 +9443,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void PrepareQueryCompletedEventHandler(object sender, PrepareQueryCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class PrepareQueryCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9485,23 +9485,23 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void EnableDataSourceCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void DisableDataSourceCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetDataSourceContentsCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetDataSourceContentsCompletedEventHandler(object sender, GetDataSourceContentsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetDataSourceContentsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9523,11 +9523,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListDatabaseCredentialRetrievalOptionsCompletedEventHandler(object sender, ListDatabaseCredentialRetrievalOptionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListDatabaseCredentialRetrievalOptionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9549,15 +9549,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetItemDataSourcesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemDataSourcesCompletedEventHandler(object sender, GetItemDataSourcesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemDataSourcesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9579,11 +9579,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void TestConnectForDataSourceDefinitionCompletedEventHandler(object sender, TestConnectForDataSourceDefinitionCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class TestConnectForDataSourceDefinitionCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9613,11 +9613,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void TestConnectForItemDataSourceCompletedEventHandler(object sender, TestConnectForItemDataSourceCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class TestConnectForItemDataSourceCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9647,19 +9647,19 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateRoleCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetRolePropertiesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetRolePropertiesCompletedEventHandler(object sender, GetRolePropertiesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetRolePropertiesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9689,15 +9689,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void DeleteRoleCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListRolesCompletedEventHandler(object sender, ListRolesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListRolesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9719,11 +9719,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListTasksCompletedEventHandler(object sender, ListTasksCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListTasksCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9745,15 +9745,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetPoliciesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetPoliciesCompletedEventHandler(object sender, GetPoliciesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetPoliciesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9783,11 +9783,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemDataSourcePromptsCompletedEventHandler(object sender, GetItemDataSourcePromptsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemDataSourcePromptsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9809,11 +9809,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GenerateModelCompletedEventHandler(object sender, GenerateModelCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GenerateModelCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9843,11 +9843,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetModelItemPermissionsCompletedEventHandler(object sender, GetModelItemPermissionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetModelItemPermissionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9869,15 +9869,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetModelItemPoliciesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetModelItemPoliciesCompletedEventHandler(object sender, GetModelItemPoliciesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetModelItemPoliciesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9907,11 +9907,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetUserModelCompletedEventHandler(object sender, GetUserModelCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetUserModelCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9933,19 +9933,19 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void InheritModelItemParentSecurityCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetModelDrillthroughReportsCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListModelDrillthroughReportsCompletedEventHandler(object sender, ListModelDrillthroughReportsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListModelDrillthroughReportsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9967,11 +9967,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListModelItemChildrenCompletedEventHandler(object sender, ListModelItemChildrenCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListModelItemChildrenCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -9993,11 +9993,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListModelItemTypesCompletedEventHandler(object sender, ListModelItemTypesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListModelItemTypesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10019,11 +10019,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListModelPerspectivesCompletedEventHandler(object sender, ListModelPerspectivesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListModelPerspectivesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10045,11 +10045,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void RegenerateModelCompletedEventHandler(object sender, RegenerateModelCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class RegenerateModelCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10071,15 +10071,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void RemoveAllModelItemPoliciesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateScheduleCompletedEventHandler(object sender, CreateScheduleCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateScheduleCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10101,15 +10101,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void DeleteScheduleCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListSchedulesCompletedEventHandler(object sender, ListSchedulesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListSchedulesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10131,11 +10131,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetSchedulePropertiesCompletedEventHandler(object sender, GetSchedulePropertiesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetSchedulePropertiesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10157,11 +10157,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListScheduleStatesCompletedEventHandler(object sender, ListScheduleStatesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListScheduleStatesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10183,23 +10183,23 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void PauseScheduleCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ResumeScheduleCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetSchedulePropertiesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListScheduledItemsCompletedEventHandler(object sender, ListScheduledItemsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListScheduledItemsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10221,15 +10221,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetItemParametersCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemParametersCompletedEventHandler(object sender, GetItemParametersCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemParametersCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10251,11 +10251,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListParameterTypesCompletedEventHandler(object sender, ListParameterTypesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListParameterTypesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10277,11 +10277,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListParameterStatesCompletedEventHandler(object sender, ListParameterStatesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListParameterStatesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10303,11 +10303,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateReportEditSessionCompletedEventHandler(object sender, CreateReportEditSessionCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateReportEditSessionCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10337,19 +10337,19 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateLinkedItemCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetItemLinkCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemLinkCompletedEventHandler(object sender, GetItemLinkCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemLinkCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10371,11 +10371,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListExecutionSettingsCompletedEventHandler(object sender, ListExecutionSettingsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListExecutionSettingsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10397,15 +10397,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetExecutionOptionsCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetExecutionOptionsCompletedEventHandler(object sender, GetExecutionOptionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetExecutionOptionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10435,19 +10435,19 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void UpdateItemExecutionSnapshotCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetCacheOptionsCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetCacheOptionsCompletedEventHandler(object sender, GetCacheOptionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetCacheOptionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10477,15 +10477,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void FlushCacheCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateItemHistorySnapshotCompletedEventHandler(object sender, CreateItemHistorySnapshotCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateItemHistorySnapshotCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10515,19 +10515,19 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void DeleteItemHistorySnapshotCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetItemHistoryLimitCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemHistoryLimitCompletedEventHandler(object sender, GetItemHistoryLimitCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemHistoryLimitCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10565,15 +10565,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetItemHistoryOptionsCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetItemHistoryOptionsCompletedEventHandler(object sender, GetItemHistoryOptionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetItemHistoryOptionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10611,11 +10611,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetReportServerConfigInfoCompletedEventHandler(object sender, GetReportServerConfigInfoCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetReportServerConfigInfoCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10637,11 +10637,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void IsSSLRequiredCompletedEventHandler(object sender, IsSSLRequiredCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class IsSSLRequiredCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10663,15 +10663,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetSystemPropertiesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetSystemPropertiesCompletedEventHandler(object sender, GetSystemPropertiesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetSystemPropertiesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10693,15 +10693,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetSystemPoliciesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetSystemPoliciesCompletedEventHandler(object sender, GetSystemPoliciesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetSystemPoliciesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10723,11 +10723,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListExtensionsCompletedEventHandler(object sender, ListExtensionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListExtensionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10749,11 +10749,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListExtensionTypesCompletedEventHandler(object sender, ListExtensionTypesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListExtensionTypesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10775,11 +10775,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListEventsCompletedEventHandler(object sender, ListEventsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListEventsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10801,15 +10801,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void FireEventCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListJobsCompletedEventHandler(object sender, ListJobsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListJobsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10831,11 +10831,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListJobTypesCompletedEventHandler(object sender, ListJobTypesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListJobTypesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10857,11 +10857,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListJobActionsCompletedEventHandler(object sender, ListJobActionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListJobActionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10883,11 +10883,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListJobStatesCompletedEventHandler(object sender, ListJobStatesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListJobStatesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10909,11 +10909,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CancelJobCompletedEventHandler(object sender, CancelJobCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CancelJobCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10935,11 +10935,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void CreateCacheRefreshPlanCompletedEventHandler(object sender, CreateCacheRefreshPlanCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateCacheRefreshPlanCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -10961,15 +10961,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void SetCacheRefreshPlanPropertiesCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetCacheRefreshPlanPropertiesCompletedEventHandler(object sender, GetCacheRefreshPlanPropertiesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetCacheRefreshPlanPropertiesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -11031,15 +11031,15 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void DeleteCacheRefreshPlanCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListCacheRefreshPlansCompletedEventHandler(object sender, ListCacheRefreshPlansCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListCacheRefreshPlansCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -11061,19 +11061,19 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void LogonUserCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void LogoffCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetPermissionsCompletedEventHandler(object sender, GetPermissionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetPermissionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -11095,11 +11095,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void GetSystemPermissionsCompletedEventHandler(object sender, GetSystemPermissionsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetSystemPermissionsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -11121,11 +11121,11 @@ namespace SSRSExtractor.RSWebReference_SSRS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     public delegate void ListSecurityScopesCompletedEventHandler(object sender, ListSecurityScopesCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.6.1586.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4084.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ListSecurityScopesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
