@@ -28,6 +28,7 @@ namespace SSRSExtractor
         {
             RSWebReference_SSRS.ReportingService2010 rs = new RSWebReference_SSRS.ReportingService2010();
             rs.Credentials = System.Net.CredentialCache.DefaultCredentials;
+
             try
             {
                 cmbLocations.Items.Add("/");

@@ -71,7 +71,7 @@
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.Size = new System.Drawing.Size(307, 20);
             this.txtOutput.TabIndex = 10;
-            this.txtOutput.Text = "C:\\Users\\fabiano.conrado\\Documents\\Visual Studio 2015\\Reports";
+            this.txtOutput.Text = "C:\\Temp\\Reports";
             // 
             // label2
             // 
